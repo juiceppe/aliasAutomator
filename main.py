@@ -20,7 +20,7 @@ def main():
             print("New Alias Created")
 
 def createAlias(rawAlias):
-    newAlias = rawAlias[0] + " " + rawAlias[1] + " "  + rawAlias[2] + ' "' + rawAlias[3] + '"'
+    newAlias = rawAlias[0] + " " + rawAlias[1] + rawAlias[2] + '"' + rawAlias[3] + '"'
     return newAlias
 
 main()
